@@ -1,0 +1,28 @@
+@import "_fauxterm";
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+pre {
+	display: none;
+}
+html, body {
+	margin: 0;
+	height: 100%;
+}
+#fauxterm {
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+	background: #111;
+}
+#fauxterm .bold {
+	color: #fff;
+	font-weight: bold;
+}
+
+#fauxterm a {
+	color: #fff;
+}
